@@ -1,7 +1,7 @@
 <record>
-  <date>2015-10-07T00:34:43</date>
-  <millis>1444174483149</millis>
-  <sequence>39</sequence>
+  <date>2015-10-07T00:39:05</date>
+  <millis>1444174745764</millis>
+  <sequence>8</sequence>
   <level>300</level>
   <thread>16</thread>
   <message>SCREEN SIZE</message>
@@ -10,17 +10,17 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:43</date>
-  <millis>1444174483149</millis>
-  <sequence>40</sequence>
+  <date>2015-10-07T00:39:05</date>
+  <millis>1444174745764</millis>
+  <sequence>9</sequence>
   <level>700</level>
   <thread>16</thread>
   <message>IDE_STARTUP</message>
 </record>
 <record>
-  <date>2015-10-07T00:34:44</date>
-  <millis>1444174484123</millis>
-  <sequence>51</sequence>
+  <date>2015-10-07T00:39:06</date>
+  <millis>1444174746574</millis>
+  <sequence>17</sequence>
   <logger>org.netbeans.ui.metrics.laf</logger>
   <level>800</level>
   <thread>16</thread>
@@ -29,9 +29,9 @@
   <param>Windows</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:45</date>
-  <millis>1444174485676</millis>
-  <sequence>72</sequence>
+  <date>2015-10-07T00:39:07</date>
+  <millis>1444174747886</millis>
+  <sequence>49</sequence>
   <logger>org.netbeans.ui.projects</logger>
   <level>700</level>
   <thread>15</thread>
@@ -43,9 +43,9 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:45</date>
-  <millis>1444174485676</millis>
-  <sequence>73</sequence>
+  <date>2015-10-07T00:39:07</date>
+  <millis>1444174747886</millis>
+  <sequence>50</sequence>
   <logger>org.netbeans.ui.metrics.projects</logger>
   <level>800</level>
   <thread>15</thread>
@@ -53,45 +53,45 @@
   <param>org.netbeans.modules.java.j2seproject.J2SEProject</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:45</date>
-  <millis>1444174485701</millis>
-  <sequence>74</sequence>
+  <date>2015-10-07T00:39:07</date>
+  <millis>1444174747911</millis>
+  <sequence>51</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>33</thread>
+  <thread>42</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:46</date>
-  <millis>1444174486866</millis>
-  <sequence>78</sequence>
+  <date>2015-10-07T00:39:09</date>
+  <millis>1444174749295</millis>
+  <sequence>55</sequence>
   <level>800</level>
-  <thread>32</thread>
+  <thread>45</thread>
   <message>MEMORY</message>
   <key>MEMORY</key>
   <catalog>&lt;null&gt;</catalog>
   <param>17093521408</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:47</date>
-  <millis>1444174487182</millis>
-  <sequence>83</sequence>
+  <date>2015-10-07T00:39:09</date>
+  <millis>1444174749573</millis>
+  <sequence>60</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>33</thread>
+  <thread>42</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>1474</param>
+  <param>1659</param>
   <param>java</param>
   <param>61</param>
-  <param>380</param>
+  <param>339</param>
   <param>SpringBinary</param>
   <param>60</param>
-  <param>9</param>
+  <param>4</param>
   <param>TaskListIndexer</param>
   <param>1</param>
   <param>0</param>
@@ -106,32 +106,9 @@
   <param>1</param>
 </record>
 <record>
-  <date>2015-10-07T00:34:48</date>
-  <millis>1444174488144</millis>
-  <sequence>84</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>22</thread>
-  <message>LOG_WINDOW_DEACTIVATED</message>
-  <key>LOG_WINDOW_DEACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-</record>
-<record>
-  <date>2015-10-07T00:34:52</date>
-  <millis>1444174492451</millis>
-  <sequence>85</sequence>
-  <logger>org.netbeans.ui.focus</logger>
-  <level>500</level>
-  <thread>44</thread>
-  <message>LOG_WINDOW_ACTIVATED</message>
-  <key>LOG_WINDOW_ACTIVATED</key>
-  <catalog>org.netbeans.core.ui.warmup.Bundle</catalog>
-  <param>1205</param>
-</record>
-<record>
-  <date>2015-10-07T00:34:54</date>
-  <millis>1444174494617</millis>
-  <sequence>87</sequence>
+  <date>2015-10-07T00:39:18</date>
+  <millis>1444174758704</millis>
+  <sequence>63</sequence>
   <logger>org.netbeans.ui.actions</logger>
   <level>400</level>
   <thread>22</thread>
@@ -145,97 +122,151 @@
   <param>&amp;Options</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:17</date>
-  <millis>1444174517118</millis>
-  <sequence>88</sequence>
-  <logger>org.netbeans.ui.actions</logger>
-  <level>400</level>
+  <date>2015-10-07T00:39:23</date>
+  <millis>1444174763522</millis>
+  <sequence>64</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
   <thread>22</thread>
-  <message>UI_ACTION_BUTTON_PRESS</message>
-  <key>UI_ACTION_BUTTON_PRESS</key>
-  <catalog>org.openide.awt.Bundle</catalog>
-  <param>org.openide.awt.Actions$MenuItem[Options]</param>
-  <param>org.openide.awt.Actions$MenuItem</param>
-  <param>org.openide.awt.AlwaysEnabledAction[&amp;Options]</param>
-  <param>org.openide.awt.AlwaysEnabledAction</param>
-  <param>&amp;Options</param>
+  <message>ERGO_QUESTION</message>
+  <key>ERGO_QUESTION</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+  <param>php</param>
+  <param>php</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546904</millis>
-  <sequence>90</sequence>
+  <date>2015-10-07T00:39:47</date>
+  <millis>1444174787110</millis>
+  <sequence>65</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>22</thread>
+  <message>ERGO_QUESTION</message>
+  <key>ERGO_QUESTION</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+  <param>cnd</param>
+  <param>cnd</param>
+</record>
+<record>
+  <date>2015-10-07T00:39:47</date>
+  <millis>1444174787661</millis>
+  <sequence>66</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>28</thread>
+  <thread>43</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>59722</param>
+  <param>38088</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546909</millis>
-  <sequence>91</sequence>
+  <date>2015-10-07T00:39:47</date>
+  <millis>1444174787826</millis>
+  <sequence>73</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>28</thread>
+  <thread>43</thread>
+  <message>INDEXING_FINISHED</message>
+  <key>INDEXING_FINISHED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>165</param>
+  <param>TaskListIndexer</param>
+  <param>3</param>
+  <param>1</param>
+  <param>org.netbeans.modules.java.source.indexing.COSSynchronizingIndexer</param>
+  <param>3</param>
+  <param>0</param>
+  <param>org-netbeans-modules-jumpto-file-FileIndexer</param>
+  <param>3</param>
+  <param>0</param>
+</record>
+<record>
+  <date>2015-10-07T00:40:08</date>
+  <millis>1444174808217</millis>
+  <sequence>77</sequence>
+  <logger>org.netbeans.ui.ergonomics</logger>
+  <level>500</level>
+  <thread>22</thread>
+  <message>ERGO_CLOSE</message>
+  <key>ERGO_CLOSE</key>
+  <catalog>org.netbeans.modules.ide.ergonomics.fod.Bundle</catalog>
+</record>
+<record>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811098</millis>
+  <sequence>78</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>42</thread>
+  <message>INDEXING_STARTED</message>
+  <key>INDEXING_STARTED</key>
+  <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
+  <param>23272</param>
+</record>
+<record>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811102</millis>
+  <sequence>79</sequence>
+  <logger>org.netbeans.ui.indexing</logger>
+  <level>800</level>
+  <thread>42</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>0</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546911</millis>
-  <sequence>92</sequence>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811104</millis>
+  <sequence>80</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>28</thread>
+  <thread>42</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>2</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546927</millis>
-  <sequence>96</sequence>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811118</millis>
+  <sequence>84</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>28</thread>
+  <thread>42</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>15</param>
+  <param>13</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546929</millis>
-  <sequence>97</sequence>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811121</millis>
+  <sequence>85</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>28</thread>
+  <thread>42</thread>
   <message>INDEXING_STARTED</message>
   <key>INDEXING_STARTED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
-  <param>2</param>
+  <param>3</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546933</millis>
-  <sequence>98</sequence>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811124</millis>
+  <sequence>86</sequence>
   <logger>org.netbeans.ui.indexing</logger>
   <level>800</level>
-  <thread>28</thread>
+  <thread>42</thread>
   <message>INDEXING_FINISHED</message>
   <key>INDEXING_FINISHED</key>
   <catalog>org.netbeans.modules.parsing.impl.indexing.Bundle</catalog>
   <param>1</param>
 </record>
 <record>
-  <date>2015-10-07T00:35:46</date>
-  <millis>1444174546938</millis>
-  <sequence>102</sequence>
+  <date>2015-10-07T00:40:11</date>
+  <millis>1444174811129</millis>
+  <sequence>90</sequence>
   <logger>org.netbeans.ui.focus</logger>
   <level>500</level>
   <thread>22</thread>

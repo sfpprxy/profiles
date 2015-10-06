@@ -25,7 +25,7 @@
     <fontcolor bgColor="ff38566f" name="highlight-search"/>
     <fontcolor foreColor="ff253e5a" name="code-folding-bar"/>
     <fontcolor foreColor="ff996600" name="synchronized-text-blocks-ext-slave"/>
-    <fontcolor foreColor="d3d3d3" name="indent-guide-lines"/>
+    <fontcolor foreColor="ff00ff" name="indent-guide-lines"/>
     <fontcolor name="indent-whitespace"/>
     <fontcolor bgColor="ffe0e8f1" name="block-search"/>
     <fontcolor bgColor="ff264f78" name="selection"/>

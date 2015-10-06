@@ -30,7 +30,7 @@
     <fontcolor bgColor="ffdcdcd8" name="DisabledBreakpoint_stroke"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_CBP_broken"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_multi_BPCBP_broken"/>
-    <fontcolor bgColor="ffbde6aa" foreColor="magenta" name="CurrentPC2LinePart"/>
+    <fontcolor bgColor="ffbde6aa" name="CurrentPC2LinePart"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_mixedBP_broken"/>
     <fontcolor name="editor-bookmark"/>
     <fontcolor bgColor="ffdcdcd8" name="stopwatchProfilingPointD"/>
