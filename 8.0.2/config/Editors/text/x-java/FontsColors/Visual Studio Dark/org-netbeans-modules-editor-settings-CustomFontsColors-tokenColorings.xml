@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
+<fontscolors>
+    <fontcolor default="enum" foreColor="ff4ec9b0" name="mod-enum"/>
+    <fontcolor default="method-parameter" name="mod-parameter-declaration"/>
+    <fontcolor default="method" name="mod-method"/>
+    <fontcolor default="interface" foreColor="ff4ec9b0" name="mod-annotation-type"/>
+    <fontcolor default="interface" foreColor="ffb8d78d" name="mod-interface"/>
+    <fontcolor default="enum" foreColor="ff4ec9b0" name="mod-enum-declaration"/>
+    <fontcolor default="class" foreColor="ff4ec9b0" name="mod-class-declaration"/>
+    <fontcolor default="private" name="mod-private"/>
+    <fontcolor default="protected" name="mod-protected"/>
+    <fontcolor default="deprecated" name="mod-deprecated"/>
+    <fontcolor default="comment" name="javadoc-first-sentence"/>
+    <fontcolor default="char" foreColor="ffd69d85" name="character"/>
+    <fontcolor default="error" name="errors"/>
+    <fontcolor default="character" name="character-escape">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor bgColor="ff38566f" name="mark-occurrences"/>
+    <fontcolor default="abstract" name="mod-abstract"/>
+    <fontcolor default="field" name="mod-field"/>
+    <fontcolor default="public" name="mod-public"/>
+    <fontcolor default="constructor" foreColor="ff4ec9b0" name="mod-constructor"/>
+    <fontcolor default="local-variable" name="mod-local-variable-declaration"/>
+    <fontcolor default="local-variable" name="mod-local-variable"/>
+    <fontcolor default="keyword" name="keyword-directive"/>
+    <fontcolor default="private" name="mod-package-private"/>
+    <fontcolor default="character" name="character-escape-invalid">
+        <font style="italic"/>
+    </fontcolor>
+    <fontcolor default="method-parameter" name="mod-parameter"/>
+    <fontcolor default="interface" foreColor="ffb8d78d" name="mod-interface-declaration"/>
+    <fontcolor default="keyword" foreColor="ff569cd6" name="keyword"/>
+    <fontcolor default="whitespace" name="whitespace"/>
+    <fontcolor default="string" name="string-escape">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="static" name="mod-static"/>
+    <fontcolor default="number" foreColor="ffb5cea8" name="number"/>
+    <fontcolor default="constructor" foreColor="ff4ec9b0" name="mod-constructor-declaration"/>
+    <fontcolor default="operator" foreColor="ffb5cea8" name="operator"/>
+    <fontcolor default="class" foreColor="ff4ec9b0" name="mod-class"/>
+    <fontcolor default="unused" foreColor="gray" name="mod-unused"/>
+    <fontcolor default="string" name="string-escape-invalid">
+        <font style="italic"/>
+    </fontcolor>
+    <fontcolor default="default" foreColor="blue" name="html-tag"/>
+    <fontcolor default="comment" foreColor="ff0000cc" name="javadoc-tag">
+        <font style="bold"/>
+    </fontcolor>
+    <fontcolor default="string" foreColor="ffd69d85" name="string"/>
+    <fontcolor default="interface" foreColor="ff4ec9b0" name="mod-annotation-type-declaration"/>
+    <fontcolor default="method" name="mod-method-declaration"/>
+    <fontcolor default="comment" foreColor="ff36764e" name="comment">
+        <font style="plain"/>
+    </fontcolor>
+    <fontcolor default="comment" name="javadoc-identifier"/>
+    <fontcolor default="identifier" name="identifier"/>
+    <fontcolor default="separator" name="separator"/>
+    <fontcolor default="field" name="mod-field-declaration"/>
+    <fontcolor default="keyword" name="literal"/>
+</fontscolors>
