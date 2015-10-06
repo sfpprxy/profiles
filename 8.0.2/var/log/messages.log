@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, October 7, 2015 12:13:08 AM BST
+>Log Session: Wednesday, October 7, 2015 12:34:36 AM BST
 >System Info: 
   Product Version         = NetBeans IDE 8.0.2 (Build 201411181905) (#8230772f5f18)
   Operating System        = Windows 10 version 10.0 running on amd64
@@ -493,15 +493,16 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.commons.lang [2.4.0 2.4.0]
 	javaewah.dummy [0.7.9 0.7.9]
 	com.jcraft.jzlib [1.0.7 1.0.7]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.jgit.java7@3.4.1.201406201815-r resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.jgit.java7@3.4.1.201406201815-r resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 900 ms
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -528,19 +529,19 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 32.0MB maximum 910.5MB
 Non heap memory usage: initial 2.4MB maximum -1b
-Garbage collector: PS Scavenge (Collections=18 Total time spent=0s)
+Garbage collector: PS Scavenge (Collections=19 Total time spent=0s)
 Garbage collector: PS MarkSweep (Collections=3 Total time spent=0s)
-Classes: loaded=9691 total loaded=9691 unloaded 0
+Classes: loaded=9776 total loaded=9776 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 17,093,521,408
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 847 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 254 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\src took: 107 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 7 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 107 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 7 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 5 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 234 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\src took: 106 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 107 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: CancelableTaskWrapper[task: org.netbeans.modules.java.hints.spiimpl.hints.HintsTask@32bdbb48, phase: RESOLVED, priority: 500] : class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 476 ms.
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.options.export.OptionsExportModel.createProductInfo(OptionsExportModel.java:1188)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1 ms
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: D:\Work\NetBeans 8.0.2\ide\jsstubs\domstubs.zip took: 57 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: D:\Work\NetBeans 8.0.2\ide\jsstubs\corestubs.zip took: 37 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: D:\Work\NetBeans 8.0.2\ide\jsstubs\reststubs.zip took: 37 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 131 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.subversion]: Finished indexing svn cache with 0 entries. Elapsed time: 0 ms.
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 256
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped

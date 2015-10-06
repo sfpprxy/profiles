@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
->Log Session: Wednesday, October 7, 2015 12:09:56 AM BST
+>Log Session: Wednesday, October 7, 2015 12:33:55 AM BST
 >System Info: 
   Product Version         = NetBeans IDE 8.0.2 (Build 201411181905) (#8230772f5f18)
   Operating System        = Windows 10 version 10.0 running on amd64
   Java; VM; Vendor        = 1.8.0_60; Java HotSpot(TM) 64-Bit Server VM 25.60-b23; Oracle Corporation
   Runtime                 = Java(TM) SE Runtime Environment 1.8.0_60-b27
   Java Home               = D:\Work\Java\jdk1.8.0_60\jre
-  System Locale; Encoding = zh_CN (nb); GBK
+  System Locale; Encoding = en_US (nb); GBK
   Home Directory          = C:\Users\M
   Current Directory       = D:\Work\NetBeans 8.0.2
   User Directory          = C:\Users\M\AppData\Roaming\NetBeans\8.0.2
@@ -36,12 +36,12 @@
   Startup Classpath       = D:\Work\NetBeans 8.0.2\platform\core\core.jar;D:\Work\NetBeans 8.0.2\platform\core\org-openide-filesystems.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\core_ja.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\core_pt_BR.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\core_ru.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\core_zh_CN.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\org-openide-filesystems_ja.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\org-openide-filesystems_pt_BR.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\org-openide-filesystems_ru.jar;D:\Work\NetBeans 8.0.2\platform\core\locale\org-openide-filesystems_zh_CN.jar;D:\Work\NetBeans 8.0.2\nb\core\org-netbeans-upgrader.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\core_nb.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\core_nb_ja.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\core_nb_pt_BR.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\core_nb_ru.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\core_nb_zh_CN.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\org-netbeans-upgrader_ja.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\org-netbeans-upgrader_ru.jar;D:\Work\NetBeans 8.0.2\nb\core\locale\org-netbeans-upgrader_zh_CN.jar
 -------------------------------------------------------------------------------
 INFO [org.netbeans.modules.netbinox]: Install area set to file:/D:/Work/NetBeans 8.0.2/
-WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb] use org.jdesktop.layout which is deprecated: 改用 javax.swing.GroupLayout。(在窗体编辑器的“检查器”中, 选择“窗体...”; 将“布局生成样式”更改为“标准 Java 6 代码”。)
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb] use org.jdesktop.layout which is deprecated: Use javax.swing.GroupLayout instead. (In form editor: select Form ... in Inspector; change Layout Generation Style to Standard Java 6 code.)
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
-WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: 改用 Java 提示 SPI (org.netbeans.spi.java.hints)。
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
 WARNING [org.openide.filesystems.Ordering]: Not all children in Services/DiffProviders/ marked with the position attribute: [org-netbeans-modules-diff-cmdline-CmdlineDiffProvider.settings], but some are: [org-netbeans-modules-diff-builtin-provider-BuiltInDiffProvider.settings]
-INFO [org.netbeans.core.startup.NbEvents]: 开启模块:
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.util.lookup [8.25.2 201505281753]
 	org.openide.util [8.39.1 201411181905]
 	org.openide.modules [7.43.1 201411181905]
@@ -499,6 +499,7 @@ INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network prox
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
 WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 930 ms
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -525,66 +526,45 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 32.0MB maximum 910.5MB
 Non heap memory usage: initial 2.4MB maximum -1b
-Garbage collector: PS Scavenge (Collections=16 Total time spent=0s)
-Garbage collector: PS MarkSweep (Collections=3 Total time spent=0s)
-Classes: loaded=9636 total loaded=9636 unloaded 0
+Garbage collector: PS Scavenge (Collections=19 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=4 Total time spent=0s)
+Classes: loaded=9884 total loaded=9884 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 17,093,521,408
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 857 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 231 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\src took: 114 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\test took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 200 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\src took: 113 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\M\Documents\NetBeansProjects\Learn00\test took: 1 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 114 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 5 ms]
-INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: CancelableTaskWrapper[task: org.netbeans.modules.java.hints.spiimpl.hints.HintsTask@7b044b07, phase: RESOLVED, priority: 500] : class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 146 ms.
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 5 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: D:\Work\NetBeans 8.0.2\ide\jsstubs\domstubs.zip took: 71 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: D:\Work\NetBeans 8.0.2\ide\jsstubs\corestubs.zip took: 38 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: D:\Work\NetBeans 8.0.2\ide\jsstubs\reststubs.zip took: 27 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 136 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
-INFO [org.netbeans.modules.mercurial]: version: null
-INFO [org.netbeans.modules.subversion]: Finished indexing svn cache with 0 entries. Elapsed time: 0 ms.
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\application\xml-dtd\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\application\xml-dtd\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\css\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\css\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\html\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\html\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\javascript\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\javascript\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\plain\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\plain\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-apache-conf\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-apache-conf\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-diff\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-diff\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-el\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-el\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-java\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-java\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-json\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-json\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-jsp\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-jsp\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-neon\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-neon\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-properties\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-properties\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-sql\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-sql\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-tag\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-tag\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-yaml\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\x-yaml\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\xhtml\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\xhtml\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\xml\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\xml\FontsColors\Visual Studio Dark\.nbattrs
-INFO [org.openide.filesystems.FileSystem]: Trying to create new file C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\xml-external-parsed-entity\FontsColors\Visual Studio Dark\.nbattrs.
-INFO [org.netbeans.modules.options.export.OptionsExportModel]: File already exists: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Editors\text\xml-external-parsed-entity\FontsColors\Visual Studio Dark\.nbattrs
+INFO [org.netbeans.modules.parsing.impl.TaskProcessor]: Task: CancelableTaskWrapper[task: org.netbeans.modules.java.hints.spiimpl.hints.HintsTask@195c1b7a, phase: RESOLVED, priority: 500] : class org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper ignored cancel for 183 ms.
+INFO: No FileObject found for the following URL: file:/C:/Users/M/Documents/NetBeansProjects/Learn00/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/M/Documents/NetBeansProjects/Learn00/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:798)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:573)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped

@@ -19,8 +19,8 @@
     <fontcolor bgColor="fffc9d9f" name="CondBreakpoint"/>
     <fontcolor name="MethodBreakpoint"/>
     <fontcolor bgColor="ffbde6aa" name="OtherThreads_BP_broken"/>
-    <fontcolor bgColor="fffc9d9f" name="OtherThreads_BP"/>
     <fontcolor name="MethodBreakpoint_stroke"/>
+    <fontcolor bgColor="fffc9d9f" name="OtherThreads_BP"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_multi_DBPCBP"/>
     <fontcolor bgColor="ffe9ffe6" name="CurrentExpressionLine_BP"/>
     <fontcolor bgColor="ffdcdcd8" name="takeSnapshotProfilingPointD"/>
@@ -44,11 +44,11 @@
     <fontcolor bgColor="fffc9d9f" name="Breakpoint"/>
     <fontcolor name="org-netbeans-modules-editor-annotations-implements-is-overridden-combined"/>
     <fontcolor bgColor="ffffa0a0" name="org-netbeans-modules-xml-error"/>
-    <fontcolor bgColor="ffbde6aa" name="debugger-PC_BP_broken"/>
     <fontcolor bgColor="ffe7e1ef" name="CallSite"/>
+    <fontcolor bgColor="ffbde6aa" name="debugger-PC_BP_broken"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_DBP_stroke"/>
-    <fontcolor bgColor="ffbde6aa" name="OtherThread_BP_broken"/>
     <fontcolor bgColor="ffbde6aa" name="OtherThreads_PC_BP"/>
+    <fontcolor bgColor="ffbde6aa" name="OtherThread_BP_broken"/>
     <fontcolor bgColor="ffdcdcd8" name="Breakpoint_broken"/>
     <fontcolor name="DisabledFieldBreakpoint"/>
     <fontcolor bgColor="ffdcdcd8" name="OtherThread_DBP"/>
@@ -56,8 +56,8 @@
     <fontcolor bgColor="ffb4e4fc" name="loadgenProfilingPoint"/>
     <fontcolor bgColor="ffe9ffe6" name="CurrentExpressionLine_CBP"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_CBP"/>
-    <fontcolor bgColor="ffdcdcd8" name="loadgenProfilingPointD"/>
     <fontcolor bgColor="ffdcdcd8" name="DisabledBreakpoint"/>
+    <fontcolor bgColor="ffdcdcd8" name="loadgenProfilingPointD"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_todo_fixable"/>
     <fontcolor name="OtherThreads"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_warn_fixable"/>
@@ -84,8 +84,8 @@
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_mixedBP"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_verifier_fixable"/>
     <fontcolor name="org-netbeans-spi-editor-hints-parser_annotation_err"/>
-    <fontcolor name="org-netbeans-modules-editor-annotations-implements-has-implementations-combined"/>
     <fontcolor bgColor="ffdcdcd8" name="CondBreakpoint_broken"/>
+    <fontcolor name="org-netbeans-modules-editor-annotations-implements-has-implementations-combined"/>
     <fontcolor bgColor="ffd1ffbc" name="CurrentExpression"/>
     <fontcolor bgColor="fffc9d9f" name="CurrentPC2_BP"/>
     <fontcolor bgColor="ffbde6aa" name="debugger-PC_BP_stroke"/>
