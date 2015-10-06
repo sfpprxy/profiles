@@ -4,7 +4,7 @@
     <fontcolor bgColor="ff386f4c" foreColor="white" name="nbeditor-bracesMatching-match">
         <font style="bold"/>
     </fontcolor>
-    <fontcolor foreColor="ff253e5a" name="text-limit-line-color"/>
+    <fontcolor foreColor="ff1e1e1e" name="text-limit-line-color"/>
     <fontcolor bgColor="ff253e5a" foreColor="white" name="code-folding"/>
     <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
     <fontcolor bgColor="ff6f3757" foreColor="white" name="nbeditor-bracesMatching-mismatch">
@@ -25,7 +25,7 @@
     <fontcolor bgColor="ff38566f" name="highlight-search"/>
     <fontcolor foreColor="ff253e5a" name="code-folding-bar"/>
     <fontcolor foreColor="ff996600" name="synchronized-text-blocks-ext-slave"/>
-    <fontcolor foreColor="ff00ff" name="indent-guide-lines"/>
+    <fontcolor name="indent-guide-lines"/>
     <fontcolor name="indent-whitespace"/>
     <fontcolor bgColor="ffe0e8f1" name="block-search"/>
     <fontcolor bgColor="ff264f78" name="selection"/>

@@ -1,27 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE fontscolors PUBLIC "-//NetBeans//DTD Editor Fonts and Colors settings 1.1//EN" "http://www.netbeans.org/dtds/EditorFontsColors-1_1.dtd">
 <fontscolors>
+    <fontcolor default="field" name="markup-attribute"/>
+    <fontcolor bgColor="gray" name="nbeditor-bracesMatching-match"/>
+    <fontcolor foreColor="ffe2ce00" name="string"/>
+    <fontcolor name="text-limit-line-color"/>
+    <fontcolor foreColor="ff666666" name="code-folding"/>
+    <fontcolor foreColor="ffcc0099" name="synchronized-text-blocks-ext"/>
+    <fontcolor bgColor="ffd83636" name="nbeditor-bracesMatching-mismatch"/>
+    <fontcolor bgColor="black" name="highlight-caret-row"/>
+    <fontcolor foreColor="black" name="caret-color-overwrite-mode"/>
     <fontcolor foreColor="white" name="error" waveUnderlined="red"/>
-    <fontcolor foreColor="ff8aa6c1" name="char"/>
-    <fontcolor foreColor="fff8bb00" name="keyword"/>
-    <fontcolor name="whitespace"/>
-    <fontcolor foreColor="ffeddd3d" name="number"/>
-    <fontcolor default="keyword" name="markup-element"/>
+    <fontcolor default="default" name="entity-reference"/>
     <fontcolor name="operator"/>
-    <fontcolor name="url" underline="blue"/>
-    <fontcolor default="identifier" name="field"/>
+    <fontcolor name="status-bar"/>
+    <fontcolor name="guarded"/>
+    <fontcolor foreColor="ffeddd3d" name="number"/>
     <fontcolor bgColor="ff1e1e1e" foreColor="white" name="default">
         <font name="Consolas" size="14"/>
     </fontcolor>
-    <fontcolor foreColor="ffe2ce00" name="string"/>
-    <fontcolor default="string" name="markup-attribute-value"/>
-    <fontcolor default="default" name="entity-reference"/>
+    <fontcolor name="warning" waveUnderlined="yellow"/>
+    <fontcolor bgColor="ffd83636" name="nbeditor-bracesMatching-mismatch-multichar"/>
+    <fontcolor foreColor="fff8bb00" name="keyword"/>
+    <fontcolor name="identifier"/>
     <fontcolor default="identifier" name="method"/>
+    <fontcolor foreColor="red" name="status-bar-bold"/>
+    <fontcolor default="keyword" name="markup-element"/>
+    <fontcolor default="string" name="markup-attribute-value"/>
+    <fontcolor bgColor="ffffb442" foreColor="black" name="highlight-search"/>
+    <fontcolor foreColor="ff666666" name="code-folding-bar"/>
+    <fontcolor name="separator"/>
+    <fontcolor foreColor="ff996600" name="synchronized-text-blocks-ext-slave"/>
+    <fontcolor name="url" underline="blue"/>
+    <fontcolor default="identifier" name="field"/>
+    <fontcolor bgColor="ffe0e8f1" foreColor="black" name="block-search"/>
+    <fontcolor bgColor="ff5b5b5b" name="selection"/>
+    <fontcolor foreColor="ff8aa6c1" name="char"/>
+    <fontcolor bgColor="ffffb442" foreColor="black" name="inc-search"/>
+    <fontcolor bgColor="gray" name="nbeditor-bracesMatching-match-multichar"/>
     <fontcolor foreColor="ff428bdd" name="comment">
         <font style="italic"/>
     </fontcolor>
-    <fontcolor name="identifier"/>
-    <fontcolor name="warning" waveUnderlined="yellow"/>
-    <fontcolor name="separator"/>
-    <fontcolor default="field" name="markup-attribute"/>
+    <fontcolor name="whitespace"/>
+    <fontcolor foreColor="ff49b0eb" name="caret-color-insert-mode"/>
+    <fontcolor foreColor="blue" name="hyperlinks" underline="blue"/>
 </fontscolors>
