@@ -6,12 +6,13 @@
   <kind type="view" />
   <state type="joined"  />
   <constraints>
-    <path orientation="horizontal" number="60" weight="0.79490022172949"/>
+    <path orientation="horizontal" number="60" weight="0.8483177054605626"/>
     <path orientation="vertical" number="40" weight="0.7"/>
     <path orientation="horizontal" number="80" weight="0.3"/>
     <path orientation="vertical" number="41" weight="0.5"/>
   </constraints>
   <bounds x="1364" y="259" width="272" height="345" />
   <frame state="0"/>
+    <active-tc  id="CommonPalette" />
     <empty-behavior permanent="true"/>
 </mode>

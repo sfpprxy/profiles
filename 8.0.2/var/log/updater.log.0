@@ -1,0 +1,56 @@
+十月 11, 2015 6:28:52 下午 org.netbeans.updater.UpdaterFrame <clinit>
+信息: Entering updater.jar .................................................................... 
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator doDelete
+INFO: Deleting file: C:\Users\M\AppData\Roaming\NetBeans\8.0.2\update\deactivate\to_disable.txt
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator doDelete
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\update\deactivate\to_disable.txt deleted.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator doDeleteEmptyDirectory
+INFO: Directory C:\Users\M\AppData\Roaming\NetBeans\8.0.2\update\deactivate deleted.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator doDeleteEmptyDirectory
+INFO: Directory C:\Users\M\AppData\Roaming\NetBeans\8.0.2\update deleted.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator doDeleteEmptyDirectory
+INFO: Directory C:\Users\M\AppData\Roaming\NetBeans\8.0.2 deleted.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-dbgp.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-project.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-refactoring.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-phpunit.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-zend2.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-atoum.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-latte.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-code-analysis.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-zend.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-symfony.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-apigen.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-editor.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-smarty.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-nette2.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-nette-tester.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-symfony2.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-composer.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-kit.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-phpdoc-documentation.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-samples.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-doctrine2.xml modified.
+Oct 11, 2015 6:28:53 PM org.netbeans.updater.ModuleDeactivator writeStringToFile
+INFO: File C:\Users\M\AppData\Roaming\NetBeans\8.0.2\config\Modules\org-netbeans-modules-php-twig.xml modified.

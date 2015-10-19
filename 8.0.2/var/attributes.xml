@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
 <attributes version="1.0">
-    <fileobject name="C:|Users|M|Documents|NetBeansProjects|Learn00|src|learn00|Guagua.java">
+    <fileobject name="C:|Users|M|AppData|Local|NetBeans|Cache|8.0.2|index|s129|java|14|gensrc|javax|servlet|ServletResponse.java">
+        <attr name="classfile-binaryName" stringvalue="javax/servlet/ServletResponse"/>
+        <attr name="classfile-root" urlvalue="jar:file:/C:/Turbo/glassfish-4.1/glassfish/modules/javax.servlet-api.jar!/"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="206377EFDF739CDF562A13D8BDA20E30"/>
+    </fileobject>
+    <fileobject name="C:|Users|M|AppData|Local|NetBeans|Cache|8.0.2|index|s129|java|14|gensrc|javax|servlet|http|HttpServlet.java">
+        <attr name="classfile-binaryName" stringvalue="javax/servlet/http/HttpServlet"/>
+        <attr name="classfile-root" urlvalue="jar:file:/C:/Turbo/glassfish-4.1/glassfish/modules/javax.servlet-api.jar!/"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="8F339E1C7E52C1955F3CFB560BE3EBA5"/>
+    </fileobject>
+    <fileobject name="C:|Users|M|AppData|Local|NetBeans|Cache|8.0.2|index|s129|java|14|gensrc|javax|servlet|http|HttpServletRequest.java">
+        <attr name="classfile-binaryName" stringvalue="javax/servlet/http/HttpServletRequest"/>
+        <attr name="classfile-root" urlvalue="jar:file:/C:/Turbo/glassfish-4.1/glassfish/modules/javax.servlet-api.jar!/"/>
+        <attr name="disable-java-errors" boolvalue="true"/>
+        <attr name="origin-hash" stringvalue="55E407C629F1BBE8575A65AA13FD066A"/>
+    </fileobject>
+    <fileobject name="C:|Users|M|Documents|NetBeansProjects|JavaLab01|src|javalab01|Student.java">
+        <attr name="originalFile" stringvalue="Student.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|M|Documents|NetBeansProjects|Learn00|src|ConstructorDemo.java">
+        <attr name="originalFile" stringvalue="Guagua.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|M|Documents|NetBeansProjects|Learn00|src|constructor|ConstructorDemo.java">
+        <attr name="originalFile" stringvalue="Guagua.java"/>
+    </fileobject>
+    <fileobject name="C:|Users|M|Documents|NetBeansProjects|Learn00|src|learn00|ConstructorDemo.java">
         <attr name="originalFile" stringvalue="Guagua.java"/>
     </fileobject>
 </attributes>

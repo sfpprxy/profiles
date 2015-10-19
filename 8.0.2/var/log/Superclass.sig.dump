@@ -1,0 +1,101 @@
+Coupling error:
+class file file:/C:/Users/M/AppData/Local/NetBeans/Cache/8.0.2/index/s30/java/14/classes/learn00/Superclass.sig
+source file file:/C:/Users/M/Documents/NetBeansProjects/Learn00/src/learn00/Subclass.java
+----- Source file content: ----------------------------------------
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package learn00;
+
+/**
+ *
+ * @author M
+ */
+class Superclass{
+   
+   int agenum;
+
+   Superclass(int age){
+      this.age=age; 		 
+   }
+
+   public void getAge(){
+      System.out.println("The value of the variable named age in super class is: " +age);
+   }
+
+}
+
+public class Subclass extends Superclass {
+   
+   Subclass(int age){
+      super(age);
+   }
+
+   public static void main(String argd[]){
+      Subclass s= new Subclass(24);
+      s.getAge();
+   }
+
+}
+
+
+----- Trees: -------------------------------------------------------
+VARIABLE: agenum
+----- Stack trace: ---------------------------------------------
+com.sun.tools.javac.util.CouplingAbort
+	at org.netbeans.modules.java.source.TreeLoader.couplingError(TreeLoader.java:284)
+	at com.sun.tools.javac.comp.MemberEnter.visitVarDef(MemberEnter.java:891)
+	at com.sun.tools.javadoc.JavadocMemberEnter.visitVarDef(JavadocMemberEnter.java:88)
+	at org.netbeans.lib.nbjavac.services.NBJavadocMemberEnter.visitVarDef(NBJavadocMemberEnter.java:90)
+	at com.sun.tools.javac.tree.JCTree$JCVariableDecl.accept(JCTree.java:858)
+	at com.sun.tools.javac.comp.MemberEnter.memberEnter(MemberEnter.java:461)
+	at com.sun.tools.javac.comp.MemberEnter.memberEnter(MemberEnter.java:473)
+	at com.sun.tools.javac.comp.MemberEnter.finishClass(MemberEnter.java:487)
+	at com.sun.tools.javac.comp.MemberEnter.finish(MemberEnter.java:1668)
+	at com.sun.tools.javac.comp.MemberEnter.complete(MemberEnter.java:1463)
+	at com.sun.tools.javac.code.Symbol.complete(Symbol.java:577)
+	at com.sun.tools.javac.code.Symbol$ClassSymbol.complete(Symbol.java:1053)
+	at com.sun.tools.javac.comp.Enter.complete(Enter.java:730)
+	at com.sun.tools.javac.main.JavaCompiler.complete(JavaCompiler.java:1060)
+	at com.sun.tools.javac.main.JavaCompiler.complete(JavaCompiler.java:812)
+	at com.sun.tools.javac.main.JavaCompiler$1.complete(JavaCompiler.java:318)
+	at com.sun.tools.javac.jvm.ClassReader.fillIn(ClassReader.java:2589)
+	at com.sun.tools.javac.jvm.ClassReader.complete(ClassReader.java:2484)
+	at com.sun.tools.javac.jvm.ClassReader.access$000(ClassReader.java:77)
+	at com.sun.tools.javac.jvm.ClassReader$1.complete(ClassReader.java:244)
+	at com.sun.tools.javac.code.Symbol.complete(Symbol.java:577)
+	at com.sun.tools.javac.code.Symbol$ClassSymbol.complete(Symbol.java:1053)
+	at com.sun.tools.javac.model.JavacElements.binaryNameToClassSymbol(JavacElements.java:134)
+	at com.sun.tools.javac.model.JavacElements.getTypeElementByBinaryName(JavacElements.java:119)
+	at org.netbeans.api.java.source.ElementHandle.getTypeElementByBinaryName(ElementHandle.java:622)
+	at org.netbeans.api.java.source.ElementHandle.resolveImpl(ElementHandle.java:160)
+	at org.netbeans.api.java.source.ElementHandle.resolve(ElementHandle.java:136)
+	at org.netbeans.modules.java.editor.overridden.ComputeOverriders$1.run(ComputeOverriders.java:500)
+	at org.netbeans.modules.java.editor.overridden.ComputeOverriders$1.run(ComputeOverriders.java:489)
+	at org.netbeans.modules.java.source.parsing.MimeTask.run(MimeTask.java:83)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callUserTask(TaskProcessor.java:598)
+	at org.netbeans.modules.parsing.api.ParserManager$MimeTaskAction.run(ParserManager.java:382)
+	at org.netbeans.modules.parsing.api.ParserManager$MimeTaskAction.run(ParserManager.java:365)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:206)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$2.call(TaskProcessor.java:203)
+	at org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager.priorityIO(FileChangedManager.java:176)
+	at org.netbeans.modules.masterfs.providers.ProvidedExtensions.priorityIO(ProvidedExtensions.java:360)
+	at org.netbeans.modules.parsing.impl.Utilities.runPriorityIO(Utilities.java:74)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.runUserTask(TaskProcessor.java:203)
+	at org.netbeans.modules.parsing.api.ParserManager.parse(ParserManager.java:336)
+	at org.netbeans.api.java.source.JavaSource.runUserActionTaskImpl(JavaSource.java:422)
+	at org.netbeans.api.java.source.JavaSource.runUserActionTask(JavaSource.java:414)
+	at org.netbeans.modules.java.editor.overridden.ComputeOverriders.findOverriddenAnnotations(ComputeOverriders.java:489)
+	at org.netbeans.modules.java.editor.overridden.ComputeOverriders.computeOverridingForRoot(ComputeOverriders.java:268)
+	at org.netbeans.modules.java.editor.overridden.ComputeOverriders.processImpl(ComputeOverriders.java:246)
+	at org.netbeans.modules.java.editor.overridden.ComputeOverriders.process(ComputeOverriders.java:177)
+	at org.netbeans.modules.java.editor.overridden.ComputeAnnotations.computeAnnotations(ComputeAnnotations.java:127)
+	at org.netbeans.modules.java.editor.overridden.ComputeAnnotations.run(ComputeAnnotations.java:108)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:573)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)

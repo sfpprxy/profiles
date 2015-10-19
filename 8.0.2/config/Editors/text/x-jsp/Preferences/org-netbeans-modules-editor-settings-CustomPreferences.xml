@@ -19,4 +19,10 @@
     <entry javaType="java.lang.Boolean" name="code-folding-collapse-tags" xml:space="preserve">
         <value><![CDATA[false]]></value>
     </entry>
+    <entry javaType="methodvalue" name="identifier-acceptor" xml:space="preserve">
+        <value><![CDATA[org.netbeans.modules.html.editor.HtmlSettingsFactory.getIdentifierAcceptor]]></value>
+    </entry>
+    <entry javaType="methodvalue" name="indent-hot-chars-acceptor" xml:space="preserve">
+        <value><![CDATA[org.netbeans.modules.editor.java.NbJavaSettingsInitializer.getIndentHotCharsAcceptor]]></value>
+    </entry>
 </editor-preferences>
